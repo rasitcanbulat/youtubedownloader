@@ -1,39 +1,66 @@
-YouTube Downloader Pro
+# 🎬 YouTube Downloader Pro
+
 Kullanımı kolay, modern ve güçlü bir arayüze sahip masaüstü YouTube video indirme uygulaması.
 
-✨ Özellikler
-Modern ve Şık Arayüz: Karanlık ve aydınlık tema seçenekleriyle göz yormayan tasarım.
+---
 
-Yüksek Kalite İndirme: Videoları 360p'den 1080p, 4K ve üzerine kadar tüm mevcut çözünürlüklerde MP4 olarak indirin.
+## ✨ Özellikler
 
-MP3 Dönüştürme: Tek tıkla videoları yüksek kaliteli MP3 ses dosyası olarak kaydedin.
+- 🎨 **Modern ve Şık Arayüz**  
+  Karanlık ve aydınlık tema seçenekleriyle göz yormayan tasarım.
 
-Video Önizleme: İndirmeden önce videonun küçük resmini ve başlığını görün.
+- 🎥 **Yüksek Kalite İndirme**  
+  Videoları 360p'den 1080p, 4K ve üzerine kadar tüm mevcut çözünürlüklerde MP4 olarak indirin.
 
-Gerçek Zamanlı İlerleme: İndirme hızını ve ilerlemesini anlık olarak takip edin.
+- 🎵 **MP3 Dönüştürme**  
+  Tek tıkla videoları yüksek kaliteli MP3 ses dosyası olarak kaydedin.
 
-Kolay Kurulum: install.bat dosyası ile tek tıkla kurulum.
+- 🖼️ **Video Önizleme**  
+  İndirmeden önce videonun küçük resmini ve başlığını görün.
 
-🚀 Kurulum
-Bu programı bilgisayarınıza kurmak çok kolay!
+- 📊 **Gerçek Zamanlı İlerleme**  
+  İndirme hızını ve ilerlemesini anlık olarak takip edin.
 
-Python Yükleyin: Bilgisayarınızda Python yüklü değilse, python.org adresinden indirin. Yükleme sırasında "Add Python to PATH" seçeneğini işaretlediğinizden emin olun.
+- ⚙️ **Kolay Kurulum**  
+  `install.bat` dosyası ile tek tıkla kurulum.
 
-Projeyi İndirin: Bu sayfanın sağ üst köşesindeki yeşil <> Code butonuna, ardından "Download ZIP" seçeneğine tıklayarak projeyi indirin ve arşivi bir klasöre çıkartın.
+---
 
-(İsteğe Bağlı) Özel İkon: Programın kendine özel bir ikonu olmasını isterseniz, beğendiğiniz bir .ico uzantılı dosyayı bulun ve adını icon.ico olarak değiştirip ana proje klasörünün içine koyun.
+## 🚀 Kurulum
 
-Kurulumu Başlatın: Klasörün içindeki build.bat (veya yeni adıyla install.bat olarak değiştirebilirsiniz) dosyasına çift tıklayın. Kurulum sihirbazı, gerekli tüm bileşenleri (yt-dlp, FFmpeg vb.) sizin için otomatik olarak indirip kuracak ve tamamlandığında YouTube Downloader Pro.exe'yi Masaüstünüze bırakacaktır.
+### 1. Python Yükleyin
+Bilgisayarınızda Python yüklü değilse, [python.org](https://www.python.org/downloads/) adresinden indirin.  
+Kurulum sırasında **"Add Python to PATH"** seçeneğini işaretlediğinizden emin olun.
 
-Bu kadar! Artık programı Masaüstünüzden çalıştırabilirsiniz.
+### 2. Projeyi İndirin
+- Bu sayfanın sağ üst köşesindeki yeşil **`<> Code`** butonuna tıklayın.
+- Ardından **`Download ZIP`** seçeneğini seçin ve dosyaları bir klasöre çıkartın.
 
-🛠️ Kullanılan Teknolojiler
-Python: Ana programlama dili.
+### 3. (İsteğe Bağlı) Özel İkon
+- Beğendiğiniz bir `.ico` dosyasını **`icon.ico`** adıyla kaydedin.
+- Ana proje klasörünün içine yerleştirin.
 
-Tkinter & sv-ttk: Masaüstü arayüzü ve modern tema.
+### 4. Kurulumu Başlatın
+- Klasörün içindeki `build.bat` dosyasına çift tıklayın (adı `install.bat` olarak değiştirilebilir).
+- Kurulum sihirbazı gerekli tüm bileşenleri (**yt-dlp**, **FFmpeg** vb.) otomatik olarak indirip kuracaktır.
+- Kurulum tamamlandığında `YouTube Downloader Pro.exe` masaüstünüze eklenecektir.
 
-yt-dlp: YouTube'dan video bilgilerini ve akışlarını almak için güçlü bir kütüphane.
+✅ Artık uygulamayı masaüstünüzden çalıştırabilirsiniz!
 
-FFmpeg: Yüksek çözünürlüklü video ve ses akışlarını birleştirmek ve MP3'e dönüştürmek için temel araç.
+---
 
-PyInstaller: Python betiğini tek bir .exe dosyasına paketlemek için.
+## 🛠️ Kullanılan Teknolojiler
+
+| Teknoloji | Açıklama |
+|----------|----------|
+| **Python** | Ana programlama dili |
+| **Tkinter & sv-ttk** | Masaüstü arayüzü ve modern tema |
+| **yt-dlp** | YouTube’dan video bilgilerini çekmek için |
+| **FFmpeg** | Video/ses akışlarını birleştirmek ve MP3 dönüştürmek için |
+| **PyInstaller** | Python betiğini `.exe` dosyasına paketlemek için |
+
+---
+
+## 📜 Lisans
+
+Bu proje açık kaynaklıdır. İzin verilen koşullar için `LICENSE` dosyasına göz atabilirsiniz.
