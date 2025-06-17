@@ -36,11 +36,7 @@ Kurulum sırasında **"Add Python to PATH"** seçeneğini işaretlediğinizden e
 - Bu sayfanın sağ üst köşesindeki yeşil **`<> Code`** butonuna tıklayın.
 - Ardından **`Download ZIP`** seçeneğini seçin ve dosyaları bir klasöre çıkartın.
 
-### 3. (İsteğe Bağlı) Özel İkon
-- Beğendiğiniz bir `.ico` dosyasını **`icon.ico`** adıyla kaydedin.
-- Ana proje klasörünün içine yerleştirin.
-
-### 4. Kurulumu Başlatın
+### 3. Kurulumu Başlatın
 - Klasörün içindeki `build.bat` dosyasına çift tıklayın (adı `install.bat` olarak değiştirilebilir).
 - Kurulum sihirbazı gerekli tüm bileşenleri (**yt-dlp**, **FFmpeg** vb.) otomatik olarak indirip kuracaktır.
 - Kurulum tamamlandığında `YouTube Downloader Pro.exe` masaüstünüze eklenecektir.
